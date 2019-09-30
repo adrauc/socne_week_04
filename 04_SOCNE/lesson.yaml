@@ -103,7 +103,7 @@
   Hint: Type ggplot(data=taipei_lang, aes(x = data_vector, y= Freq)) at the command prompt.
 
 - Class: text
-  Output: You will now see the plot, but it is empty - we have to still add a geometric element.
+  Output: You will now see the plot (click on the Plots tab on the right), but it is empty - we have to still add a geometric element.
 
 - Class: cmd_question
   Output: Write exactly the same code as before and save it in the new object g. Use arrow up to get the last line of code you've written.
