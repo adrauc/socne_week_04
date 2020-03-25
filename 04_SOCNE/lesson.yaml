@@ -163,7 +163,7 @@
   Output: Looks better, but not yet perfect.
 
 - Class: cmd_question
-  Output: With ylab and xlab we can add unique labels to an axis. the argument in xlab() has to be a string. Let's call the ylab "language frequency" and save it in g.
+  Output: With ylab and xlab we can add unique labels to an axis. The argument in xlab() or ylab() has to be a string. Let's call the y-axis "language frequency" with the ylab() function and save it in g.
   CorrectAnswer:  g <- g + ylab("language frequency")
   AnswerTests: omnitest(correctExpr='g <- g + ylab("language frequency")')
   Hint: Type g <- g + ylab("language frequency") at the command prompt.
@@ -265,7 +265,7 @@
 
 
 - Class: cmd_question
-  Output: We create a new ggplot object called g1 - this time we use the columns followers_count for x in aes and for y friends_count and as data we use user_taipei.
+  Output: We create a new ggplot object called g1 - this time we use the columns followers_count from the user_taipei data frame for x in aes and for y friends_count and as data we use user_taipei.
   CorrectAnswer: g1 <- ggplot(user_taipei, aes(x = followers_count, y = friends_count))
   AnswerTests: expr_creates_var("g1"); omnitest(correctExpr='g1 <- ggplot(user_taipei, aes(x = followers_count, y = friends_count))')
   Hint: Type g1 <- ggplot(user_taipei, aes(x = followers_count, y = friends_count)) at the command prompt.
